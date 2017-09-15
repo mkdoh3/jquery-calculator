@@ -62,7 +62,7 @@
      $(".clear").on("click", function () {
          num1 = "";
          nums = [];
-         operator = "";
+         operator = "#";
          results = "";
          $("#result").html("");
      });
