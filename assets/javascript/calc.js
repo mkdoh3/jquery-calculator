@@ -51,9 +51,9 @@
          }
 
 
-         results = eval(nums.join(""));
+         results = eval(nums.join("")).toFixed(8);
          nums = [];
-         nums.push(results.toString());
+         nums.push(results);
          $("#result").html(results);
      });
 

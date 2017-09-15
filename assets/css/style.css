@@ -4,7 +4,6 @@
     text-align: right;
     background-color: #aab9a6;
     border: .3em inset #cfd6dc;
-    overflow:hidden
 }
 
 .calc-main {
@@ -28,6 +27,7 @@
     margin: 5px;
     font-family: 'VT323', monospace;
     font-size: 4em;
+    overflow:hidden
 }
 
 .container {
@@ -60,5 +60,5 @@
 }
 
 .clear {
-    color:red;
+    color:#cc0404;
 }
