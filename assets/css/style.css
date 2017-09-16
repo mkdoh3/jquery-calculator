@@ -24,10 +24,12 @@
 }
 
 #result {
-    margin: 5px;
+    margin: 1px;
     font-family: 'VT323', monospace;
     font-size: 4em;
-    overflow:hidden
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: "";
 }
 
 .container {

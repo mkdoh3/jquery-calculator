@@ -51,10 +51,28 @@
 
          //join the array and eval, reset the array and then push result so it can still be operated on until clear is clicked
          //update html
+         
+         
+         //add check to see if a number isnt whole and limit result decimal places when necessary using toFixed
+         
+         
          results = eval(nums.join(""));
          nums = [];
-         nums.push(results.toString());
+        nums.push(results.toString());
+//         nums.push(results.toString());
+//         $("#result").html(results);
+          if(results % 1 === 0){
+            $("#result").html(results);
+         }
+         else {
+            results = results.toFixed(2);
          $("#result").html(results);
+         }
+         
+         
+         
+         
+         
      });
 
 
