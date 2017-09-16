@@ -24,7 +24,6 @@
 }
 
 #result {
-    margin: 1px;
     font-family: 'VT323', monospace;
     font-size: 4em;
     overflow: hidden;
@@ -66,12 +65,24 @@
     color:#cc0404;
 }
 
-/*
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 920px) {
+    .btn h1 {
+        font-size: 28px
+    }
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 880px) {
+    .btn h1 {
+        font-size: 20px
+    }
+}
 
-*/
+@media screen and (max-width: 880px) {
+    .btn h1 {
+        font-size: 20px
+    }
+}
+
+
 
