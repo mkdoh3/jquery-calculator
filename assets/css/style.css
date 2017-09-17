@@ -78,9 +78,10 @@
     }
 }
 
-@media screen and (max-width: 880px) {
-    .btn h1 {
-        font-size: 20px
+@media screen and (max-width: 414px) {
+    .jumbotron {
+        padding: 10px 0;
+        margin-bottom: 0;
     }
 }
 
